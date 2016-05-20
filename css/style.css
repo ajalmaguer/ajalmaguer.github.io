@@ -7,6 +7,10 @@
   padding-right: 2%;
 }
 
+.project {
+  opacity: 0;
+}
+
 .project .description {
   margin-bottom: 30px;
 }
@@ -20,24 +24,7 @@
   margin-bottom: 15px;
 }
 
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+footer {
+  opacity: 0;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
+
