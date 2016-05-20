@@ -8,13 +8,36 @@
 }
 
 .project .description {
-  padding-top: 30px
+  margin-bottom: 30px;
 }
 
 .chip {
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .btn-floating {
   margin-bottom: 15px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
