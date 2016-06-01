@@ -7,8 +7,8 @@
     var vm = this
     vm.projects = [
       {
-        imageUrl: "img/student-portal.png",
-        name: "Student Portal",
+        imageUrl: "img/iwannaroomie.png",
+        name: "I Wanna Roommate",
         description: "This airbnb clone was created to be a portal for students to find roommates within their cohort. It was built using the MEAN (MongoDB, Express, Angular, and Node) Stack. Most notably, this project uses Angular 1.5's newest Componenents and Component Router features.",
         keywords: [
           {keyword: "Angular", icon: "devicon-angularjs-plain colored"},
@@ -19,7 +19,7 @@
           {keyword: "Javascript", icon: "devicon-javascript-plain"},
           {keyword: "Materialize", icon: ""}
         ],
-        liveUrl: "http://uscpharm.herokuapp.com/",
+        liveUrl: "http://iwannaroomie.herokuapp.com/",
         repoUrl: "https://github.com/ajalmaguer/student-portal"
       },
       // {
@@ -40,7 +40,7 @@
       {
         imageUrl: "img/foodtours.png",
         name: "Food Tours",
-        description: "Blah blah blah.",
+        description: "This is my first Ruby on Rails project. I made it for the 2nd project of the Web Development Immersive class that I took from General Assembly. I'm part of the Downtown LA 9 cohort. \n The goal of Food Tours was to answer the question, 'What should I eat when I travel to ____?' I've been asked this question many times from friends who travel to Chicago or the Bay Area, both places I've lived before. While yelp is great at giving all the information you need, there's still a need for a curated list of restuaruants AND what to order at those restaurants. Users upload 'food landmarks' which are supposed to be specific dishes at a certain restaurant. Users can then organize landmarks into their own 'tours,' which display a list of the landmarks on that tour as well as a google map of where the landmarks are located. Special thanks to Pinterest for inspiring the user experience design and my friends for inspiring my love of good food. :)",
         keywords: [
           {keyword: "Ruby on Rails", icon: "devicon-rails-plain colored"},
           {keyword: "PostgreSQL", icon: "devicon-postgresql-plain colored"},
