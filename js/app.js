@@ -7,10 +7,11 @@
     var vm = this
     vm.projects = [
       {
-        imageUrl: "img/tbd.png",
-        name: "Snap Clock",
-        description: "A mobile-first multiplayer scavenger hunt game built on the MEN (Mongo, Express, Node) Stack and with Web Sockets (Socket.io).",
+        imageUrl: "img/student-portal.png",
+        name: "Student Portal",
+        description: "This airbnb clone was created to be a portal for students to find roommates within their cohort. It was built using the MEAN (MongoDB, Express, Angular, and Node) Stack. Most notably, this project uses Angular 1.5's newest Componenents and Component Router features.",
         keywords: [
+          {keyword: "Angular", icon: "devicon-angularjs-plain colored"},
           {keyword: "MongoDB", icon: "devicon-mongodb-plain colored"},
           {keyword: "Express", icon: ""},
           {keyword: "Node", icon: "devicon-nodejs-plain colored"},
@@ -18,9 +19,24 @@
           {keyword: "Javascript", icon: "devicon-javascript-plain"},
           {keyword: "Materialize", icon: ""}
         ],
-        liveUrl: "https://foodtours.herokuapp.com/",
-        repoUrl: "https://github.com/ajalmaguer/foodtours/"
+        liveUrl: "http://uscpharm.herokuapp.com/",
+        repoUrl: "https://github.com/ajalmaguer/student-portal"
       },
+      // {
+      //   imageUrl: "img/tbd.png",
+      //   name: "Snap Clock",
+      //   description: "A mobile-first multiplayer scavenger hunt game built on the MEN (Mongo, Express, Node) Stack and with Web Sockets (Socket.io).",
+      //   keywords: [
+      //     {keyword: "MongoDB", icon: "devicon-mongodb-plain colored"},
+      //     {keyword: "Express", icon: ""},
+      //     {keyword: "Node", icon: "devicon-nodejs-plain colored"},
+      //     {keyword: "Web Sockets", icon: "fa fa-bolt"},
+      //     {keyword: "Javascript", icon: "devicon-javascript-plain"},
+      //     {keyword: "Materialize", icon: ""}
+      //   ],
+      //   liveUrl: "https://foodtours.herokuapp.com/",
+      //   repoUrl: "https://github.com/ajalmaguer/foodtours/"
+      // },
       {
         imageUrl: "img/foodtours.png",
         name: "Food Tours",
