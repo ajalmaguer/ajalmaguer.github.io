@@ -9,7 +9,7 @@
       {
         imageUrl: "img/iwannaroomie.png",
         name: "I Wanna Roommate",
-        description: "This airbnb clone was created to be a portal for students to find roommates within their cohort. It was built using the MEAN (MongoDB, Express, Angular, and Node) Stack. Most notably, this project uses Angular 1.5's newest Componenents and Component Router features.",
+        description: "This airbnb clone was created to be a portal for students to find roommates within their cohort. It was built using the MEAN (MongoDB, Express, Angular, and Node) Stack. This project uses Angular 1.5's newest Componenents and Component Router features. It also uses Socket.io to power real-time chat between users.",
         keywords: [
           {keyword: "Angular", icon: "devicon-angularjs-plain colored"},
           {keyword: "MongoDB", icon: "devicon-mongodb-plain colored"},
@@ -22,21 +22,21 @@
         liveUrl: "http://iwannaroomie.herokuapp.com/",
         repoUrl: "https://github.com/ajalmaguer/student-portal"
       },
-      // {
-      //   imageUrl: "img/tbd.png",
-      //   name: "Snap Clock",
-      //   description: "A mobile-first multiplayer scavenger hunt game built on the MEN (Mongo, Express, Node) Stack and with Web Sockets (Socket.io).",
-      //   keywords: [
-      //     {keyword: "MongoDB", icon: "devicon-mongodb-plain colored"},
-      //     {keyword: "Express", icon: ""},
-      //     {keyword: "Node", icon: "devicon-nodejs-plain colored"},
-      //     {keyword: "Web Sockets", icon: "fa fa-bolt"},
-      //     {keyword: "Javascript", icon: "devicon-javascript-plain"},
-      //     {keyword: "Materialize", icon: ""}
-      //   ],
-      //   liveUrl: "https://foodtours.herokuapp.com/",
-      //   repoUrl: "https://github.com/ajalmaguer/foodtours/"
-      // },
+      {
+        imageUrl: "img/snapthis.png",
+        name: "Snap This",
+        description: "A mobile-first multiplayer scavenger hunt game built on the MEN (Mongo, Express, Node) Stack and with Web Sockets (Socket.io). Thanks to Brigette, Marcos and Victor, who worked on this project with me.",
+        keywords: [
+          {keyword: "MongoDB", icon: "devicon-mongodb-plain colored"},
+          {keyword: "Express", icon: ""},
+          {keyword: "Node", icon: "devicon-nodejs-plain colored"},
+          {keyword: "Web Sockets", icon: "fa fa-bolt"},
+          {keyword: "Javascript", icon: "devicon-javascript-plain"},
+          {keyword: "Materialize", icon: ""}
+        ],
+        liveUrl: "https://snap-this.herokuapp.com/",
+        repoUrl: "https://github.com/bmorando/Project-3"
+      },
       {
         imageUrl: "img/foodtours.png",
         name: "Food Tours",
