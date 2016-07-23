@@ -8,8 +8,8 @@
     vm.projects = [
       {
         imageUrl: "img/iwannaroomie.png",
-        name: "I Wanna Roommate",
-        description: "This airbnb clone was created to be a portal for students to find roommates within their cohort. It was built using the MEAN (MongoDB, Express, Angular, and Node) Stack. This project uses Angular 1.5's newest Componenents and Component Router features. It also uses Socket.io to power real-time chat between users.",
+        name: "USChack Up",
+        description: "This airbnb clone (originally called I Wanna Roomie) was created to be a portal for students to find roommates within their cohort. It was built using the MEAN (MongoDB, Express, Angular, and Node) Stack. This project uses Angular 1.5's newest Componenents and Component Router features. It also uses Socket.io to power real-time chat between users.",
         keywords: [
           {keyword: "Angular", icon: "devicon-angularjs-plain colored"},
           {keyword: "MongoDB", icon: "devicon-mongodb-plain colored"},
@@ -19,7 +19,7 @@
           {keyword: "Javascript", icon: "devicon-javascript-plain"},
           {keyword: "Materialize", icon: ""}
         ],
-        liveUrl: "http://iwannaroomie.herokuapp.com/",
+        liveUrl: "http://uschackup.herokuapp.com/",
         repoUrl: "https://github.com/ajalmaguer/student-portal"
       },
       {
