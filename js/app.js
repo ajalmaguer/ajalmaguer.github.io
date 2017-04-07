@@ -49,7 +49,7 @@
           {keyword: "JQuery", icon: "devicon-jquery-plain colored"},
           {keyword: "Bootstrap", icon: "devicon-bootstrap-plain colored"}
         ],
-        liveUrl: "https://foodtours.herokuapp.com/",
+//         liveUrl: "https://foodtours.herokuapp.com/",
         repoUrl: "https://github.com/ajalmaguer/foodtours/"
       },
       {
