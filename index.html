@@ -90,7 +90,7 @@
         </div>
         <br>
         <div>
-          <a href="{{project.liveUrl}}" target="_blank" class="btn light-blue darken-3 waves-effect waves-light">Visit</a>
+          <a ng-if="project.liveUrl" href="{{project.liveUrl}}" target="_blank" class="btn light-blue darken-3 waves-effect waves-light">Visit</a>
           <a href="{{project.repoUrl}}" target="_blank" class="btn light-blue darken-3 waves-effect waves-light">Github Repo</a>
         </div>
       </div>
